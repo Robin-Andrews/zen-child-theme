@@ -1,0 +1,39 @@
+/*
+Theme Name:     zen child
+Description:    zen child
+Author:         robin
+Template:       accessible-zen
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+.top-navigation{
+	text-align: center;
+}
+.main-navigation a{
+    text-transform: unset;
+}
+.site-banner{
+	padding: 1.5em 0 0;
+}
+.page h1.entry-title{
+	display: none;
+}
+.entry-content{
+	margin-top: 0;
+}
+.content-area{
+	padding-top: 0;
+}
+div.wpcf7 {
+	margin: auto;
+	max-width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+	.alignright {
+		margin: auto;
+		float: none;
+		display: block;
+	}
+}
